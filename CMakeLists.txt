@@ -22,7 +22,7 @@ set(CPACK_GENERATOR ZIP)
 set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
 set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
-
+add_subdirectory ("Lab6_sem3")
 include(CPack)
 
 
@@ -31,4 +31,4 @@ enable_testing()
 #add_test(NAME IPParserTests COMMAND IPParserTests)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-add_subdirectory ("Lab6_sem3")
+
